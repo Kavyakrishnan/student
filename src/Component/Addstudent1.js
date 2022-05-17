@@ -1,7 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Addstudent1 = () => {
   return (
+      <div>
+          <Header/>
    <div className='container'>
 
 <div className="row g-2">
@@ -44,7 +47,7 @@ const Addstudent1 = () => {
     </div>
   
     
-
+    </div>
    </div>
   )
 }

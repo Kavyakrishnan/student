@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from './Header'
 
 const Searchstudent = () => {
   return (
+      <div>
+
+   <Header/>
     <div className='container'>
     <div>
      <div className="row g-2">
@@ -26,6 +30,7 @@ const Searchstudent = () => {
 </div></div>
 
     </div>   
+    </div>
     </div>
   )
 }
