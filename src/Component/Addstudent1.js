@@ -2,7 +2,9 @@ import React from 'react'
 
 const Addstudent1 = () => {
   return (
-    <div className="row g-2">
+   <div className='container'>
+
+<div className="row g-2">
     <div className="col">
         <div className="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 col-lg-12">
     <div className="row g-3">
@@ -42,6 +44,8 @@ const Addstudent1 = () => {
     </div>
   
     
+
+   </div>
   )
 }
 
